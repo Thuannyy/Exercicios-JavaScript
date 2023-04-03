@@ -1,0 +1,27 @@
+// Cria um array com 5 números reais
+const numeros = [2.5, 3.7, 4.2, 5.8, 6.1];
+
+// Exibe o quadrado de cada número
+numeros.forEach((numero) => {
+  console.log("O quadrado de " + numero + " é " + Math.pow(numero, 2));
+});
+
+// Exibe a raiz quadrada de cada número
+numeros.forEach((numero) => {
+  console.log("A raiz quadrada de " + numero + " é " + Math.sqrt(numero));
+});
+
+// Exibe apenas a parte inteira de cada número
+numeros.forEach((numero) => {
+  console.log("A parte inteira de " + numero + " é " + Math.floor(numero));
+});
+
+// Exibe o número arredondado para baixo de cada número
+numeros.forEach((numero) => {
+  console.log("O número " + numero + " arredondado para baixo é " + Math.floor(numero));
+});
+
+// Exibe o número arredondado para cima de cada número
+numeros.forEach((numero) => {
+  console.log("O número " + numero + " arredondado para cima é " + Math.ceil(numero));
+});
